@@ -1,0 +1,92 @@
+body {
+    background-image: url(../assets/img/font.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+    color: white;
+    font-family: 'Dosis', sans-serif;
+}
+
+main {
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5vh auto;
+    padding: 10px;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 80%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+legend {
+    font-size: 1.8em;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    background-color: orangered;
+    border-radius: 5px;
+}
+
+label {
+    text-align: justify;
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 1.2em;
+}
+
+.bar {
+    width: 40vw;
+    height: 4vh;
+    margin: auto;
+    border-radius: 6px;
+    outline: none;
+    padding-left: 1vw;
+    background-color: lightgrey;
+    font-size: 1.1em;
+    color: chocolate;
+}
+
+.bar:hover {
+    background-color: orangered;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+fieldset {
+    /* background-color: coral; */
+    /* opacity: 70%; */
+    border: none;
+}
+
+#condition {
+    height: 6vh;
+    width: 12vw;
+    background-color: orangered;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 3vh 0 0 17vw;
+}
+
+#condition:hover {
+    color: orangered;
+    background-color: white;
+    cursor: pointer;
+}
+
+.text {
+    font-size: 1.3em;
+}
+
+.text:hover {
+    color: orangered;
+}

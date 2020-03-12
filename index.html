@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Formulaire</title>
+    <link rel="icon" href="./assets/img/mlogo.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        <h1>Renseignement</h1>
+        <form methode="post" action="#" enctype="img.jpg">
+            <fieldset>
+                <legend>Civilité</legend>
+
+                <p><label for="nom et prenom">Nom et Prenom</label> <br>
+                    <input type="text" id="nom et prenom" placeholder="IKAMBA Maximus" autofocus tabindex="1" class="bar"></p>
+
+                <P><label for="age">Âge</label> <br>
+                    <input type="number" name="age" placeholder="18ans" id="age" max="90" min="16" class="bar"></P>
+
+                <p><label for="email">E-mail</label> <br>
+                    <input type="email" name="email" id="email" placeholder="bcydusoei@gmail.com" class="bar"></p>
+
+                <p><label for="mot de passe">Mot de passe</label> <br>
+                    <input type="password" name="text" id="mot de passe" class="bar"></p>
+
+                <p><label for="sexe" class="text">Sexe:</label> <br>
+
+                    <label for="homme" class="text">Homme</label>
+
+                    <input type="radio" name="homme" id="homme">
+
+                    <label for="femme" class="text">Femme</label>
+
+                    <input type="radio" name="femme" id="femme"><br>
+
+                    <input type="file" name="photo"></p>
+
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Formation</legend>
+                <p>
+                    <label for="dernier diplome">Dernier Diplome:</label> <br>
+                    <select>
+                    <option value="bac3">Bac+3</option>
+                    <option value="bac">Bac</option>
+                    <option value="bac2">Bac+2</option>
+                    <option value="bac3">Bac+3</option>
+                    <option value="master">Master</option>
+                    
+                </select>
+                </p>
+
+                <p>
+                    <label for="choise">Centre d'intérêt</label><br>
+                    <input type="checkbox" name="choise" class="text">Musique<input type="checkbox" name="choise" class="text">Jeux vidéos<input type="checkbox" name="checkbox" class="text">Lecture<input type="checkbox" name="choise" class="text">Web
+
+                </p>
+            </fieldset>
+
+            <fieldset>
+
+                <p class="text">Commentaire<br>
+                    <textarea maxlenght="100" placeholder="commentaire" cols="50" rows="15"></textarea>
+                </p>
+
+                <p>
+                    <input type="checkbox" name="select" id="accepte">
+                    <label for="select" class="text">J'ai lu et <a>j'accepte les conditions d'utilisateur.</a> </label><br>
+                    <input type="submit" name="send" id="condition" required>
+                </p>
+
+            </fieldset>
+
+        </form>
+    </main>
+</body>
+
+</html>
